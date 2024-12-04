@@ -3,7 +3,7 @@ import { projectData } from "../constants/projects.js";
 
 const Projects = () => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full p-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full p-4 gap-4">
             {projectData.map((project, index) => (
                 <Cards key={index} project={project} />
             ))}

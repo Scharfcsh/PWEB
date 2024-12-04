@@ -202,3 +202,7 @@ html {
   scrollbar-color: rgba(243, 192, 237, 0.995) rgba(65, 65, 65, 0);
   scrollbar-width: thin;
 }
+
+::-webkit-scrollbar-track {
+  background: transparent;
+ }

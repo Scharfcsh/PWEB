@@ -6,7 +6,7 @@ const Technologies = ({techStack}) => {
       {techStack.map((tech, index) => (
         <div
           key={index}
-          className="m-2 px-6 py-1 bg-white text-black font-bold text-sm rounded-xl shadow-md text-center hover:bg-teal-500"
+          className="m-1 px-2 py-1 bg-white text-black font-bold text-sm rounded-xl shadow-md text-center hover:bg-teal-500"
         >
           {tech}
         </div>
