@@ -66,7 +66,7 @@ export const projectData =[
     "img": "https://res.cloudinary.com/dfegcjs84/image/upload/v1733282342/chat1_jhtwn0.jpg"
   },
   {
-    "projectName": "FloatingCards",
+    "projectName": "FloatingCard",
     "description": "A task management application that helps users organize and prioritize their to-do lists efficiently.",
     "technologies": ["React", "Framer Mtion", "Tailwind CSS", "JavaScript"],
     "github": "https://github.com/Scharfcsh/FloatingDocsCards",  
