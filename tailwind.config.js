@@ -20,6 +20,5 @@ export default {
     filter: ['hover'],
   },
   plugins: [
-    require('tailwindcss-filters'),
   ],
 }
