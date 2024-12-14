@@ -62,7 +62,7 @@ export const projectData =[
     "description": "A real-time chat application that allows people to communicate over the internet using WebSockets.",
     "technologies": ["React", "Node.js", "WebSockets", "Express", "MongoDB"],
     "github": "https://github.com/Scharfcsh/Chirple",
-    "live": "https://chirple-live.com",
+    "live": "https://chirple-client.vercel.app",
     "img": "https://res.cloudinary.com/dfegcjs84/image/upload/v1733282342/chat1_jhtwn0.jpg"
   },
   {
@@ -70,15 +70,15 @@ export const projectData =[
     "description": "A task management application that helps users organize and prioritize their to-do lists efficiently.",
     "technologies": ["React", "Framer Mtion", "Tailwind CSS", "JavaScript"],
     "github": "https://github.com/Scharfcsh/FloatingDocsCards",  
-    "live": "https://taskmaster-live.com",
+    "live": "https://floating-cards-docs.vercel.app",
     "img": "https://res.cloudinary.com/dfegcjs84/image/upload/v1733282557/todo_yl6bqp.jpg"
   },
   {
     "projectName": "NO Bank",
     "description": "A  user interface for a banking website, leveraging Tailwind CSS to create a visually appealing and responsive frontend.",
     "technologies": ["React", "Tailwind CSS", "TypeScript"],
-    "github": "https://github.com",
-    "live": "https://weathernow-live.com",
+    "github": "https://github.com/Scharfcsh/BankingWebsite",
+    "live": "https://banking-website-bay.vercel.app",
     "img": "https://res.cloudinary.com/dfegcjs84/image/upload/v1710524171/rgja5bendsrbwg2wkykt.png"
   }
 ]
