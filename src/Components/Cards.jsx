@@ -12,7 +12,7 @@ const Cards = ({ project }) => {
         style={{ backgroundImage: `url(${project.img})` }}
       ></div>
     
-      <div className="h-56">
+      <div className="h-56">3oP
         <h2 className="text-white font-bold">{project.projectName}</h2>
         <p className="text-gray-400">{project.description}</p>
         <Technologies techStack={project.technologies} />
