@@ -52,7 +52,7 @@ export const myTechStack = [
   "TypeScript",
   "MongoDB",
   "TailwindCSS",
-  "Postg reSQL",
+  "Postgress",
   "HTML",
 ];
 
@@ -92,7 +92,7 @@ export const publications = [
     author: 'Aman Adhikari',
     date: '2024-01-15',
     readTime: '7 min read',
-    imageUrl: '#',
+    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 2,
@@ -101,7 +101,7 @@ export const publications = [
     author: 'Aman Adhikari',
     date: '2024-02-10',
     readTime: '10 min read',
-    imageUrl: '#',
+    imageUrl: 'https://images.unsplash.com/photo-1639322537504-6427a16b0a28?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 3,
@@ -110,6 +110,6 @@ export const publications = [
     author: 'Aman Adhikari',
     date: '2024-03-05',
     readTime: '6 min read',
-    imageUrl: '#',
+    imageUrl: 'https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBvcnRmb2xpb3xlbnwwfHwwfHx8MA%3D%3D',
   },
 ];

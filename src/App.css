@@ -21,7 +21,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  animation: moveEllipse1 20s linear infinite, changeColor 20s linear infinite;
+  animation: moveEllipse1 5s linear infinite, changeColor 20s linear infinite;
   width: 20rem;
   height: 20rem;
   border-radius: 250px;
@@ -40,7 +40,7 @@ html {
   /* background-color: rgb(255 117 156 / 24%); */
   filter: blur(200px);
   z-index: 1;
-  animation: moveEllipse2 20s linear infinite, changeColor 20s linear infinite;
+  animation: moveEllipse2 10s linear infinite, changeColor 20s linear infinite;
 }
 
 @keyframes moveEllipse1 {
