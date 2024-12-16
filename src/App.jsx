@@ -5,12 +5,11 @@ import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
     <>
-      <Analytics>
-        <div className="relative overflow-hidden">
-          <Backgroung />
-          <Hero />
-        </div>
-      </Analytics>
+      <div className="relative overflow-hidden">
+        <Backgroung />
+        <Hero />
+      </div>
+      <Analytics />
     </>
   );
 }
