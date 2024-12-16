@@ -37,22 +37,22 @@ const Sidebar = () => {
       {/* Sidebar content */}
       <div
         className={`
-          fixed top-0 left-0 w-3/5 h-full bg-[#121924] z-40
-          xl:relative xl:w-1/5 xl:h-[95%] xl:my-14 xl:rounded-lg
-          overflow-y-auto transition-transform duration-300 ease-in-out
+          fixed top-0 left-0 w-3/5 h-screen bg-[#121924] z-40
+          xl:relative xl:w-1/5 xl:my-14 xl:rounded-lg
+           transition-transform duration-300 ease-in-out
           ${showMenu ? "translate-x-0" : "-translate-x-full"}
           xl:translate-x-0 xl:block
         `}
       >
-        <div className="bg-[#18212b] h-auto rounded-t-lg flex flex-col items-center gap-2 p-4">
-          <div className="rounded-full h-32 w-32 mt-8 border-blue-400 border">
+        <div className="bg-[#18212b] h-auto rounded-t-lg flex flex-col items-center gap-2 p-2">
+          <div className="rounded-full h-24 w-24 mt-4 border-blue-400 border">
             <img
               src={photo}
               alt="photo"
               className="rounded-full object-cover h-full w-full"
             />
           </div>
-          <h1 className="font-bold text-xl text-center mt-4 text-white">
+          <h1 className="font-bold text-xl text-center mt-2 text-white">
             Aman Adhikari
           </h1>
           <p className="text-center font-semibold text-gray-400">
