@@ -67,8 +67,8 @@ export const projectData =[
   },
   {
     "projectName": "FloatingCards",
-    "description": "A task management application that helps users organize and prioritize their to-do lists efficiently.",
-    "technologies": ["React", "Framer Mtion", "Tailwind CSS", "JavaScript"],
+    "description": "A secure contact storage platform. Save, access, and manage all your contacts in one convenient place!",
+    "technologies": ["React", "Framer Motion", "Tailwind CSS", "JavaScript"],
     "github": "https://github.com/Scharfcsh/FloatingDocsCards",  
     "link": "https://floating-cards-docs.vercel.app",
     "img": "https://res.cloudinary.com/dfegcjs84/image/upload/v1733282557/todo_yl6bqp.jpg"
