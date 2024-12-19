@@ -78,7 +78,7 @@ export const projectData =[
     "description": "A  user interface for a banking website, leveraging Tailwind CSS to create a visually appealing and responsive frontend.",
     "technologies": ["React", "Tailwind CSS", "TypeScript"],
     "github": "https://github.com/Scharfcsh/BankingWebsite",
-    "link": "https://banking-website-bay.vercel.app",
+    "link": "https://banking-website-dusky.vercel.app/",
     "img": "https://res.cloudinary.com/dfegcjs84/image/upload/v1710524171/rgja5bendsrbwg2wkykt.png"
   }
 ]
