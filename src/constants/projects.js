@@ -119,6 +119,7 @@ export const publications = [
     author: 'Aman Adhikari',
     date: '2024-12-28',
     readTime: '3 min read',
+    readMore : 'https://medium.com/@amanadhikari2003/the-callback-hell-survival-guide-d5ee3ec22670',
     imageUrl: 'https://res.cloudinary.com/dfegcjs84/image/upload/v1735417002/Screenshot_2024-12-29_014335_oauliv.png',
   },
 ];

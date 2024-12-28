@@ -26,9 +26,9 @@ const Blog = () => {
               </div>
               <div className="mt-4 flex justify-between items-center">
                 <span className="text-sm text-gray-500">{post.readTime}</span>
-                <button className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded">
+                <a className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded" href={post.readMore}>
                   Read More
-                </button>
+                </a>
               </div>
             </div>
           </div>
