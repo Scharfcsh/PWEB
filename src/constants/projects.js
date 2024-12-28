@@ -119,6 +119,6 @@ export const publications = [
     author: 'Aman Adhikari',
     date: '2024-12-28',
     readTime: '3 min read',
-    imageUrl: 'https://www.canva.com/design/DAGanOPu1XY/YMwcAraRdZDyyfuXQuyTgw/view?utm_content=DAGanOPu1XY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h821a644347',
+    imageUrl: 'https://res.cloudinary.com/dfegcjs84/image/upload/v1735417002/Screenshot_2024-12-29_014335_oauliv.png',
   },
 ];
