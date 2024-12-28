@@ -112,4 +112,13 @@ export const publications = [
     readTime: '6 min read',
     imageUrl: 'https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBvcnRmb2xpb3xlbnwwfHwwfHx8MA%3D%3D',
   },
+  {
+    id: 4,
+    title: 'Callback And Callback Hell',
+    excerpt: 'A brief guide on Callback and Callback Hell in JavaScript.',
+    author: 'Aman Adhikari',
+    date: '2024-12-28',
+    readTime: '3 min read',
+    imageUrl: 'https://www.canva.com/design/DAGanOPu1XY/YMwcAraRdZDyyfuXQuyTgw/view?utm_content=DAGanOPu1XY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h821a644347',
+  },
 ];
