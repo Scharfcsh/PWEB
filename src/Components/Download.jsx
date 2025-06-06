@@ -7,7 +7,7 @@ const Download = () => {
         <a
           rel="noreferrer"
           className="btn-slide relative inline-block h-[60px] w-4/5 leading-10 p-0 rounded-full bg-[#0F141C] duration-75 hover:bg-[#FF759C]"
-          href="https://docs.google.com/document/d/1eUuz0oZ3sQkDFHLQPLh1lRRK0q9KeROko-bzpwFMSaw/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1pxsWIyB277Og6upKBlKmGShi2GzbzsipoRsVCjc0t2A/edit?usp=sharing"
           
           target="_blank"
           // download
