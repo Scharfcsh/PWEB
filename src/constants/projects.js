@@ -58,12 +58,49 @@ export const myTechStack = [
 
 export const projectData =[
   {
+    "projectName": "WebRTC Room",
+    "description": "Architected a peer-to-peer video/audio chat app using WebRTC with ICE/SDP signaling over WebSockets.",
+    "technologies": ["Electron.js", "WebRTC", "WebSocket", "Node.js"],
+    "github": "https://github.com/Scharfcsh/WebRTC-Room",
+    "link": "",
+    "img": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2024-11-20"
+  },
+  {
+    "projectName": "RealTime Messaging Platform",
+    "description": "Web-based real-time messaging platform with persistent WebSocket connection (70ms latency).",
+    "technologies": ["React.js", "Express", "Socket.io", "Zustand", "MongoDB"],
+    "github": "https://github.com/Scharfcsh/RealTime-Messaging",
+    "link": "",
+    "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2024-10-15"
+  },
+  {
+    "projectName": "Smart EHR System",
+    "description": "Modular Electronic Health Record system with NFC tap check-in and real-time WebSocket broadcasting.",
+    "technologies": ["Next.js", "JavaScript", "WebSocket"],
+    "github": "https://github.com/Scharfcsh/Smart-EHR",
+    "link": "",
+    "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2024-09-08"
+  },
+  {
+    "projectName": "Amsid - Advanced Short ID Generator",
+    "description": "Production-ready npm package for generating collision-resistant short IDs using hardware randomization.",
+    "technologies": ["TypeScript", "Node.js", "MongoDB"],
+    "github": "https://github.com/Scharfcsh/Amsid",
+    "link": "https://www.npmjs.com/package/amsid",
+    "img": "https://images.unsplash.com/photo-1550063873-ab792950096b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2025-11-22"
+  },
+  {
     "projectName": "Chirple",
     "description": "A real-time chat application that allows people to communicate over the internet using WebSockets.",
     "technologies": ["React", "Node.js", "WebSockets", "Express", "MongoDB"],
     "github": "https://github.com/Scharfcsh/Chirple",
     "link": "https://chirple-client.vercel.app",
-    "img": "https://res.cloudinary.com/dfegcjs84/image/upload/v1733282342/chat1_jhtwn0.jpg"
+    "img": "https://res.cloudinary.com/dfegcjs84/image/upload/v1733282342/chat1_jhtwn0.jpg",
+    "date": "2024-07-10"
   },
   {
     "projectName": "FloatingCards",
@@ -71,15 +108,17 @@ export const projectData =[
     "technologies": ["React", "Framer Motion", "Tailwind CSS", "JavaScript"],
     "github": "https://github.com/Scharfcsh/FloatingDocsCards",  
     "link": "https://floating-cards-docs.vercel.app",
-    "img": "https://res.cloudinary.com/dfegcjs84/image/upload/v1733282557/todo_yl6bqp.jpg"
+    "img": "https://res.cloudinary.com/dfegcjs84/image/upload/v1733282557/todo_yl6bqp.jpg",
+    "date": "2024-06-05"
   },
   {
     "projectName": "NO Bank",
-    "description": "A  user interface for a banking website, leveraging Tailwind CSS to create a visually appealing and responsive frontend.",
+    "description": "A user interface for a banking website, leveraging Tailwind CSS to create a visually appealing and responsive frontend.",
     "technologies": ["React", "Tailwind CSS", "TypeScript"],
     "github": "https://github.com/Scharfcsh/BankingWebsite",
     "link": "https://banking-website-dusky.vercel.app/",
-    "img": "https://res.cloudinary.com/dfegcjs84/image/upload/v1710524171/rgja5bendsrbwg2wkykt.png"
+    "img": "https://res.cloudinary.com/dfegcjs84/image/upload/v1710524171/rgja5bendsrbwg2wkykt.png",
+    "date": "2024-03-15"
   }
 ]
 

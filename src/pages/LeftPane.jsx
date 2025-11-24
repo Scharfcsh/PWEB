@@ -37,14 +37,14 @@ const Sidebar = () => {
       {/* Sidebar content */}
       <div
         className={`
-          fixed top-0 left-0 w-3/5 h-screen bg-[#121924] z-40
+          fixed top-0 md:top-10 left-0 w-3/5 md:h-[95%] h-screen bg-[#121924] z-40
           xl:relative xl:w-1/5 xl:my-14 xl:rounded-lg
            transition-transform duration-300 ease-in-out
           ${showMenu ? "translate-x-0" : "-translate-x-full"}
           xl:translate-x-0 xl:block
         `}
       >
-        <div className="bg-[#18212b] h-auto rounded-t-lg flex flex-col items-center gap-2 p-2">
+        <div className="bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]  h-auto rounded-t-lg flex flex-col items-center gap-2 p-2">
           <div className="rounded-full h-24 w-24 mt-4 border-blue-400 border">
             <img
               src={photo}

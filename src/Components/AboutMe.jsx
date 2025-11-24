@@ -2,33 +2,35 @@ import { services,qualifications,certifications, accomplishments } from "../cons
 export default function AboutMe() {
 
   return (
-    <div className="min-h-screen bg-transparent text-white py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-transparent text-white py-6 sm:py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* What I Do Section */}
-        <div className=" text-gray-100 py-12">
-          <div className="max-w-7xl mx-auto px-6 lg:px-8 ">
-            <h2 className="text-4xl font-bold text-center text-teal-400">
+        <div className="text-gray-100 py-6 sm:py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center text-teal-400">
               What I Do
             </h2>
-            <p className="mt-4 text-center text-gray-400">
+            <p className="mt-3 sm:mt-4 text-center text-gray-400 text-sm sm:text-base lg:text-lg max-w-3xl mx-auto">
               Leveraging expertise in backend, frontend, and UI/UX design to
               craft digital solutions that deliver results.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mt-6 sm:mt-10">
               {services.map((service) => (
                 <div
                   key={service.id}
-                  className="  shadow-md   border border-gray-400 rounded-xl p-4 h1over:rotate- hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
+                  className="shadow-md border border-gray-400 rounded-xl p-3 sm:p-4 lg:p-6 hover:shadow-lg hover:scale-105 hover:border-gray-300 transition-all duration-300 ease-in-out bg-gray-900/30 backdrop-blur-sm"
                 >
                   <div
-                    className="h-28 w-full bg-cover bg-center rounded-t-xl transition-transform duration-300 "
+                    className="h-20 sm:h-24 lg:h-28 w-full bg-cover bg-center rounded-lg transition-transform duration-300 hover:scale-105"
                     style={{ backgroundImage: `url(${service.icon})` }}
                   ></div>
-                  <h3 className="text-md font-semibold mb-2 mt-6">
+                  <h3 className="text-sm sm:text-base lg:text-lg font-semibold mb-2 mt-3 sm:mt-4 lg:mt-6 text-white">
                     {service.title}
                   </h3>
-                  <p className="text-gray-400 text-sm">{service.description}</p>
+                  <p className="text-gray-400 text-xs sm:text-sm lg:text-base leading-relaxed">
+                    {service.description}
+                  </p>
                 </div>
               ))}
             </div>
@@ -68,22 +70,22 @@ export default function AboutMe() {
           </div>
         </div> */}
         {/* Qualifications Subsection */}
-        <div className=" text-gray-100 py-8">
-          <div className="max-w-5xl mx-auto px-4">
-            <h3 className="text-2xl font-semibold text-teal-400 mb-4">
+        <div className="text-gray-100 py-6 sm:py-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 className="text-xl sm:text-2xl font-semibold text-teal-400 mb-4 sm:mb-6 text-center sm:text-left">
               Qualifications
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {qualifications.map((qual) => (
                 <div
                   key={qual.id}
-                  className=" border border-gray-400 rounded-xl p-4 h1over:rotate- hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
+                  className="border border-gray-400 rounded-xl p-3 sm:p-4 lg:p-5 hover:shadow-lg hover:scale-105 hover:border-gray-300 transition-all duration-300 ease-in-out bg-gray-900/30 backdrop-blur-sm"
                 >
-                  <h4 className="text-lg font-medium text-gray-200">
+                  <h4 className="text-base sm:text-lg font-medium text-gray-200 mb-2">
                     {qual.title}
                   </h4>
-                  <p className="text-sm text-gray-400">{qual.institution}</p>
-                  <span className="text-sm text-gray-500">{qual.year}</span>
+                  <p className="text-xs sm:text-sm text-gray-400 mb-1">{qual.institution}</p>
+                  <span className="text-xs sm:text-sm text-gray-500">{qual.year}</span>
                 </div>
               ))}
             </div>
@@ -130,22 +132,22 @@ export default function AboutMe() {
         </div> */}
 
         {/* Certifications Section */}
-        <div className=" text-gray-100 py-8 ">
-          <div className="max-w-5xl mx-auto px-4">
-            <h3 className="text-2xl font-semibold text-teal-400 mb-4">
+        <div className="text-gray-100 py-6 sm:py-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 className="text-xl sm:text-2xl font-semibold text-teal-400 mb-4 sm:mb-6 text-center sm:text-left">
               Certifications
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {certifications.map((cert) => (
                 <div
                   key={cert.id}
-                  className=" border border-gray-400 rounded-xl p-4 h1over:rotate- hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
+                  className="border border-gray-400 rounded-xl p-3 sm:p-4 lg:p-5 hover:shadow-lg hover:scale-105 hover:border-gray-300 transition-all duration-300 ease-in-out bg-gray-900/30 backdrop-blur-sm"
                 >
-                  <h4 className="text-lg font-medium text-gray-200">
+                  <h4 className="text-base sm:text-lg font-medium text-gray-200 mb-2">
                     {cert.title}
                   </h4>
-                  <p className="text-sm text-gray-400">{cert.issuer}</p>
-                  <span className="text-sm text-gray-500">{cert.year}</span>
+                  <p className="text-xs sm:text-sm text-gray-400 mb-1">{cert.issuer}</p>
+                  <span className="text-xs sm:text-sm text-gray-500">{cert.year}</span>
                 </div>
               ))}
             </div>
@@ -153,20 +155,22 @@ export default function AboutMe() {
         </div>
 
         {/* Accomplishments Section */}
-        <div className=" text-gray-100 py-8">
-          <div className="max-w-5xl mx-auto px-4">
-            <h3 className="text-2xl font-semibold text-teal-400 mb-4">
+        {/* <div className="text-gray-100 py-6 sm:py-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 className="text-xl sm:text-2xl font-semibold text-teal-400 mb-4 sm:mb-6 text-center sm:text-left">
               Accomplishments
             </h3>
-            <ul className="list-disc list-inside space-y-3 text-gray-400">
-              {accomplishments.map((accomp) => (
-                <li key={accomp.id} className="text-md">
-                  {accomp.title}
-                </li>
-              ))}
-            </ul>
+            <div className="bg-gray-900/30 backdrop-blur-sm border border-gray-400 rounded-xl p-4 sm:p-6 lg:p-8">
+              <ul className="list-disc list-inside space-y-2 sm:space-y-3 text-gray-400">
+                {accomplishments.map((accomp) => (
+                  <li key={accomp.id} className="text-sm sm:text-base leading-relaxed">
+                    {accomp.title}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

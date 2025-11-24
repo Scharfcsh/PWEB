@@ -3,11 +3,11 @@ import resume from '../assets/AmanAdhikariResume.pdf'
 
 const Download = () => {
   return (
-    <div  className="wrap m-4 text-center">~
+    <div  className="wrap m-2 text-center">~
         <a
           rel="noreferrer"
-          className="btn-slide relative inline-block h-[60px] w-4/5 leading-10 p-0 rounded-full bg-[#0F141C] duration-75 hover:bg-[#FF759C]"
-          href="https://docs.google.com/document/d/1pxsWIyB277Og6upKBlKmGShi2GzbzsipoRsVCjc0t2A/edit?usp=sharing"
+          className="btn-slide relative inline-block h-[60px] w-4/5 leading-10 p-0 rounded-full bg-[#202b3b] duration-75 hover:bg-[#FF759C]"
+          href="https://docs.google.com/document/d/199wvB8dij2EaHlwf1LJXTiIXcZJNuX9D2cSxkh6BIPg/edit?usp=sharing"
           
           target="_blank"
           // download
