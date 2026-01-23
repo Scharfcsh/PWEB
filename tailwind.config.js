@@ -6,19 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-      filter: {
-        'custom-hover-filter': 'brightness(0) saturate(100%) invert(55%) sepia(64%) saturate(887%) hue-rotate(120deg) brightness(94%) contrast(101%)',
+      fontFamily: {
+        mono: ['JetBrains Mono', 'monospace'],
       },
-      backgroundImage: {
-        'hero': "url('./nnoise.svg')"
-        
-      }
+      colors: {
+        dark: '#0a0a0a',
+        muted: '#888888',
+        subtle: '#666666',
+      },
     },
-
   },
-  variants: {
-    filter: ['hover'],
-  },
-  plugins: [
-  ],
+  plugins: [],
 }
