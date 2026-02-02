@@ -5,7 +5,7 @@ export const personal = {
   location: "Based in India",
   email: "amanadhikari2003@gmail.com",
   github: "https://github.com/Scharfcsh",
-  linkedin: "https://linkedin.com/in/aman-adhikari",
+  linkedin: "https://linkedin.com/in/amanadhikari",
   resume: "/resume.pdf",
 };
 

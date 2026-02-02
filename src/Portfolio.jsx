@@ -264,7 +264,7 @@ const LiveDot = () => (
 
 function Portfolio() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-[#e5e5e5] font-mono selection:bg-emerald-500/20 selection:text-emerald-200">
+    <div className="min-h-screen bg-[#0a0a0a] text-[#e5e5e5] font-mono text-base sm:text-sm selection:bg-emerald-500/20 selection:text-emerald-200">
       <div className="max-w-3xl mx-auto px-6 py-20 md:py-32">
         <motion.div
           initial="initial"
@@ -280,11 +280,11 @@ function Portfolio() {
                 Open to opportunities
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
               {personal.name}
             </h1>
-            <p className="text-[#777] text-xl">{personal.role}</p>
-            <p className="text-[#666] text-base max-w-xl mx-auto leading-relaxed">
+            <p className="text-[#777] text-lg sm:text-xl">{personal.role}</p>
+            <p className="text-[#666] text-base sm:text-sm max-w-xl mx-auto leading-relaxed">
               I build and ship production software that real businesses depend
               on. I take ownership end-to-end — from designing scalable backend
               systems to delivering polished, reliable user experiences across
@@ -302,10 +302,10 @@ function Portfolio() {
             <div className="grid grid-cols-3 gap-4 py-8 border-y border-[#1a1a1a]">
               {stats.map((stat, i) => (
                 <div key={i} className="text-center">
-                  <div className="text-2xl md:text-3xl font-semibold text-[#e5e5e5]">
+                  <div className="text-xl sm:text-2xl md:text-3xl font-semibold text-[#e5e5e5]">
                     <Counter target={stat.value} suffix={stat.suffix} />
                   </div>
-                  <div className="text-[#555] text-xs mt-1 uppercase tracking-wider">
+                  <div className="text-[#555] text-sm sm:text-xs mt-1 uppercase tracking-wider">
                     {stat.label}
                   </div>
                 </div>
@@ -438,14 +438,14 @@ function Portfolio() {
                       )}
                     </div>
                   </div>
-                  <p className="text-[#777] text-sm mb-3">
+                  <p className="text-[#777] text-base sm:text-sm mb-3">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((t, j) => (
                       <span
                         key={j}
-                        className="text-[#555] text-xs px-2 py-1 bg-[#151515] rounded"
+                        className="text-[#555] text-sm sm:text-xs px-2 py-1 bg-[#151515] rounded"
                       >
                         {t}
                       </span>
@@ -509,14 +509,14 @@ function Portfolio() {
                       )}
                     </div>
                   </div>
-                  <p className="text-[#777] text-sm mb-3">
+                  <p className="text-[#777] text-base sm:text-sm mb-3">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((t, j) => (
                       <span
                         key={j}
-                        className="text-[#555] text-xs px-2 py-1 bg-[#151515] rounded"
+                        className="text-[#555] text-sm sm:text-xs px-2 py-1 bg-[#151515] rounded"
                       >
                         {t}
                       </span>
@@ -580,14 +580,14 @@ function Portfolio() {
                       )}
                     </div>
                   </div>
-                  <p className="text-[#777] text-sm mb-3">
+                  <p className="text-[#777] text-base sm:text-sm mb-3">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((t, j) => (
                       <span
                         key={j}
-                        className="text-[#555] text-xs px-2 py-1 bg-[#151515] rounded"
+                        className="text-[#555] text-sm sm:text-xs px-2 py-1 bg-[#151515] rounded"
                       >
                         {t}
                       </span>
@@ -617,7 +617,6 @@ function Portfolio() {
                   label: "LinkedIn",
                   href: personal.linkedin,
                 },
-                { icon: Icons.file, label: "Resume", href: personal.resume },
               ].map((link, i) => (
                 <motion.a
                   key={i}
