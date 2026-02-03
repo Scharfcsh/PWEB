@@ -42,7 +42,7 @@ export const stats = [
 export const amsLabs = {
   name: "AMS Labs",
   tagline: "Software Products % Engineering",
-  description: "My development studio where I build and ship production-grade software for real clients. From enterprise HRMS systems to corporate websites — I handle everything from architecture to deployment.",
+  description: "Development studio where I build and ship production-grade software for real clients. From enterprise HRMS systems to corporate websites — I handle everything from architecture to deployment.",
   link: "https://www.amslabs.in",
   highlights: [
     "Built and deployed full-stack HRMS with active paying clients",
@@ -62,12 +62,27 @@ export const professionalWork = [
     highlight: true,
   },
   {
+    name: "Amslabs Website",
+    description: "Corporate website for Amslabs - Software products and engineering studio.`",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: null,
+    link: "https://www.amslabs.in/",
+  },
+  {
     name: "Devloit Website",
     description: "Corporate website for DevloIT SDN BHD - IT services and recruitment company based in Malaysia.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS"],
     github: null,
     link: "https://www.devloit.com/",
   },
+  {
+    name: "Arishti Website",
+    description: "Corporate website for Arishti - The first ever Consent based Enterprise Messaging Platform.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: null,
+    link: "https://www.arishti.in/",
+  },
+  
 ];
 
 // Web Projects - Showcases and landing pages
