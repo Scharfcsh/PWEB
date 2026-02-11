@@ -243,8 +243,8 @@ function Portfolio() {
             </div>
             
             <div className="space-y-4">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-[1.1]">
-                {personal.role}
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-[1.1]">
+                {personal.name}
               </h1>
               <p className="text-neutral-400 text-lg sm:text-xl max-w-2xl leading-relaxed">
                 I build and ship production software that real businesses depend on. 
