@@ -58,6 +58,15 @@ export const myTechStack = [
 
 export const projectData =[
   {
+    "projectName": "TopJobOffer",
+    "description": "Full-stack job application platform with semantic job matching (pgvector + Gemini embeddings) and an automated ATS auto-apply pipeline.",
+    "technologies": ["FastAPI", "Next.js", "PostgreSQL", "Redis", "Playwright"],
+    "github": "",
+    "link": "https://topjoboffer.com",
+    "img": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "date": "2026-08-01"
+  },
+  {
     "projectName": "WebRTC Room",
     "description": "Architected a peer-to-peer video/audio chat app using WebRTC with ICE/SDP signaling over WebSockets.",
     "technologies": ["Electron.js", "WebRTC", "WebSocket", "Node.js"],
